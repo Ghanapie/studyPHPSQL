@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--homepage name setting!-->
+  <!--   -->
+  <title>Hunter diary</title>
+  <meta charset="utf-8">
+
+  <!--wikiCss.css file call-->
+  <link rel="stylesheet" href="wikiCSS.css">
+
+  <!--visiter ceck start-->
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-139954383-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-139954383-1');
+  </script>
+  <!--visiter ceck finish-->
+
+  <!-- google jqery  Google CDN call-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+  <!-- color.js file call -->
+  <script src="color.js"></script>
+</head>
+
+<body>
+
+  <!-- head  -->
+  <h1 id="title">몬스터헌터 : 월드 ( Monster Hunter: World )</h1>
+
+  <!-- theme change  -->
+  <input type="button" value="night" onclick="nightDayHandler(this);">
+
+  <div id="grid">
+
+    <!--  side menu start-->
+    <div id="sideBar">
+      <ul id="menuExplan" padding-botton> click to page</ul>
+      <ul id="menu">
+        <li><a href="homepage.html"> Monster Hunter World</a></li>
+        <li><a href="nergi.html">Nergigante</a></li>
+        <li><a href="teo.html">teo-teskatory</a></li>
+        <li><a href="kusyal.html"> kusyaldaora</a></li>
+      </ul>
+    </div>
+    <!--  side menu finish-->
+
+    <!-- 본문  -->
+    <div id="article">
+      <p><a href="http://www.monsterhunterworld.com/" target="_blank" title="official website">Monster Hunter: World</a> is an action role-playing game developed and published by Capcom. A part of the Monster Hunter series, it was released worldwide
+        for PlayStation 4 and Xbox One in January 2018, with a <u>Microsoft Windows</u> version in <strong>August 2018.</strong></p>
+
+      <!-- image insert  -->
+      <p align="middle">
+        <img src="monsterword.jpg" width="50%">
+      </p>
+
+      <!-- 본문  -->
+      <p style="margin-top:45px;">
+        In the game, the player takes the role of a Hunter, tasked to hunt down and either kill or trap monsters that roam in one of several environmental spaces. If successful, the player is rewarded through loot consisting of parts from the monster
+        and other elements that are used to craft weapons and armor, amongst other equipment. The game's core loop has the player crafting appropriate gear to be able to hunt down more difficult monsters, which in turn provide parts that lead to more
+        powerful gear. Players may hunt alone, or can hunt in cooperative groups of up to four players via the game's online services.
+      </p>
+
+      <!-- trailer video part start -->
+      <div id="trailer">
+        <h3>
+          몬스터헌터 :월드 Steam버전 트레일러 영상
+        </h3>
+
+        <p align="middle">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/fsoxwI4Etbw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </p>
+
+        <h3>
+          몬스터헌터 :월드 PlayStation버전 트레일러 영상
+        </h3>
+        <p align="middle">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/SE_FnuD9zJc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </p>
+      </div>
+      <!-- trailer video part finish -->
+
+      <!--   -->
+      <!-- comment script start  -->
+      <p>
+        <div>
+          <div id="disqus_thread"></div>
+          <script src="comment.js"></script>
+          <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        </div>
+      </p>
+      <!-- comment script finish  -->
+
+      <!--Start of Tawk.to Script-->
+      <div>
+        <script src="chat.js">
+        </script>
+      <!--End of Tawk.to Script-->
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
